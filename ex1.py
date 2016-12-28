@@ -20,9 +20,9 @@ def test():
     # 构建地图实例
     m = Basemap(projection='merc',
                 llcrnrlon=73,
-                llcrnrlat=15,
+                llcrnrlat=18,
                 urcrnrlon=135,
-                urcrnrlat=55,
+                urcrnrlat=54,
                 resolution='c',
                 lat_0=38.5,
                 lon_0=95)
